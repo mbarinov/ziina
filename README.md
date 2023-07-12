@@ -2,6 +2,8 @@
 
 ## How to run
 
+The finest way to run this application is to use Github Codespaces. I've set up a devcontainer that will install all dependencies and run the application in your browser.
+
 1. Clone the repository
 2. Run `npm install` to install all dependencies
 3. Run `npm start` to start the application
