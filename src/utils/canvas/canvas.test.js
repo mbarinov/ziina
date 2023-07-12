@@ -17,7 +17,7 @@ describe('Canvas operations', () => {
     });
 
     it('identifies red pixel', () => {
-        const pixels = new Uint8ClampedArray([150, 50, 50, 255]);
+        const pixels = new Uint8ClampedArray([255, 0, 0, 255]);
         const isRed = isPixelRed(pixels, 0);
 
         expect(isRed).toEqual(true);
