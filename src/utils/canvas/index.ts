@@ -43,5 +43,5 @@ export function isPixelRed(pixels: Uint8ClampedArray, i: number): boolean {
     const red = pixels[i];
     const green = pixels[i + 1];
     const blue = pixels[i + 2];
-    return red > 100 && green < 100 && blue < 100;
+    return red >= 255 && green === 0 && blue === 0;
 }
