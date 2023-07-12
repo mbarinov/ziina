@@ -114,6 +114,7 @@ export default function App(): ReactElement {
                             the left being boxes or circles.</p>
                         <h2 className="my-4 text-2xl font-bold">How to run</h2>
                         <div className="my-1">
+                            <p className="text-md mb-2">The finest way to run this application is to use Github Codespaces. I've set up a devcontainer that will install all dependencies and run the application in your browser. Just open the <a className="underline" href="https://github.com/mbarinov/ziina" target="_blank" rel="noreferrer">repo</a> and click on the green button "Code"</p>
                             <p><span className="font-bold">npm install</span> - to install dependencies</p>
                             <p><span className="font-bold">npm run start</span> - to start the app in development mode
                             </p>
