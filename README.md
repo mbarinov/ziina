@@ -1,4 +1,4 @@
-[Live Demo](http://localhost:3000) 
+[Live Demo](https://ziina.vercel.app/) 
 
 ## How to run
 
