@@ -113,14 +113,14 @@ export default function App(): ReactElement {
                         <p className="my-1 font-mono text-md p-2 bg-amber-100">The user can toggle between the shapes on
                             the left being boxes or circles.</p>
                         <h2 className="my-4 text-2xl font-bold">How to run</h2>
-                        <p className="my-1 text-md">
+                        <div className="my-1">
                             <p><span className="font-bold">npm install</span> - to install dependencies</p>
                             <p><span className="font-bold">npm run start</span> - to start the app in development mode
                             </p>
                             <p><span className="font-bold">npm run build</span> - to start the app in production mode
                             </p>
                             <p><span className="font-bold">npm run test</span> - to run tests</p>
-                        </p>
+                        </div>
                         <h2 className="my-4 text-2xl font-bold">Approach</h2>
                         <p className="my-1 text-md">
                             When the app starts, it first sets up a canvas with a default background and counts the
@@ -131,14 +131,12 @@ export default function App(): ReactElement {
                             count of red pixels using ImageData.
                         </p>
                         <h2 className="my-4 text-2xl font-bold">Limitations</h2>
-                        <p className="my-1 text-md">
-                            <ul className={"list-disc list-inside"}>
-                                <li>Draggable element should not have red pixels</li>
-                                <li>Touch gestures are not supported</li>
-                                <li>Window resizing is not supported</li>
-                                <li>Draggable component is not fully accessible</li>
-                            </ul>
-                        </p>
+                        <ul className={"list-disc list-inside"}>
+                            <li>Draggable element should not have red pixels</li>
+                            <li>Touch gestures are not supported</li>
+                            <li>Window resizing is not supported</li>
+                            <li>Draggable component is not fully accessible</li>
+                        </ul>
                     </div>
                     <div className="border shadow mt-5 md:mt-0 p-5 md:w-1/3 md:ml-5">
                         <h2 className="text-2xl font-bold">Info</h2>
@@ -157,16 +155,16 @@ export default function App(): ReactElement {
                         <h3 className="text-xl font-bold mt-4">Tech Stack</h3>
                         <ul className="mt-4 space-y-2 list-disc">
                             <li>
-                                <p className={"text-lg"}>TypeScript</p>
+                                <span className={"text-lg"}>TypeScript</span>
                             </li>
                             <li>
-                                <p className={"text-lg"}>React</p>
+                                <span className={"text-lg"}>React</span>
                             </li>
                             <li>
-                                <p className={"text-lg"}>Tailwind</p>
+                                <span className={"text-lg"}>Tailwind</span>
                             </li>
                             <li>
-                                <p className={"text-lg"}>React Testing Library</p>
+                                <span className={"text-lg"}>React Testing Library</span>
                             </li>
                         </ul>
                         <h3 className="text-xl font-bold mt-4">Test Coverage</h3>
